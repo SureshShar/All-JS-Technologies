@@ -1,3 +1,7 @@
+1. Angular CLI  `npm install -g @angular/cli`.
+2. Development server `ng serve`.
+3. Build `ng serve`.
+
 # AngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
