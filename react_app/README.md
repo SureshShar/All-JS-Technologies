@@ -1,7 +1,7 @@
 ## Inside that directory, you can run several commands:
 
 1. Starts the development server.
-  `npm start`
+  `npm run start`
 
 2. Bundles the app into static files for production.
   `npm run build`
