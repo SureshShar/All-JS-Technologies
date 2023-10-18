@@ -1,10 +1,13 @@
-# Contains all the use-full technology that should I work with and learn.
+# Contains code for all the use-full technology that should I work with and learn.
 
 Vue
 Nuxt
 React
+React-Native
 Angular
 AngularJs
+GraphQL-Apollo
+Java Language
 
 ## Install the Angular CLI
 

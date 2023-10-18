@@ -1,4 +1,5 @@
 import { ChangeEvent, useState } from "react";
+// import "../app"
 
 interface NewNoteInputProps {
     addNote(note: string): void
