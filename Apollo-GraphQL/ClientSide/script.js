@@ -14,10 +14,12 @@ async function fetchGraphQl() {
   const { data } = await response.json();
   console.log(data);
 
+  return data;
+}
+
+fetchGraphQl().then((data) => {
   document.getElementById("name").textContent = data.name;
   document.getElementById("date").textContent = data.date;
   document.getElementById("greeting").textContent = data.greeting;
   document.getElementById("description").textContent = data.description;
-}
-
-fetchGraphQl();
+});
