@@ -1,0 +1,68 @@
+/* Archivo font added */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    font-family: "Archivo", sans-serif;
+    /* Default color */
+    color: #0f3049;
+  }
+  .archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  } 
+
+  /* Custom classes to handle different heading tags */
+  .h1Heading {
+    @apply md:text-5xl text-2xl archivo-black-regular;
+  }
+  .h2Heading {
+    @apply md:text-4xl text-3xl archivo-black-regular;
+  }
+  .h3Heading {
+    @apply text-xl archivo-black-regular;
+  }
+  /* mostly used color in h4 is text-blue-cerulean */
+  .h4Heading {
+    @apply text-base archivo-black-regular;
+  }
+  .paragraph {
+    @apply text-base;
+  }
+  .paddingY {
+    @apply py-8;
+  }
+  .padding2Y {
+    @apply py-16;
+  }
+
+  /* Wrapper class to confine the comonent width */
+  .sectionWrapper {
+    @apply max-w-maxScreen mx-auto px-2 md:px-0;
+  }
+}
+
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 2.4s;
+}
+.layout-enter-from,
+.layout-leave-to {
+  filter: grayscale(1);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.8s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

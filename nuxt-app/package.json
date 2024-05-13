@@ -1,24 +1,28 @@
 {
-  "name": "nuxt-app",
-  "version": "1.0.0",
+  "name": "virconsultants",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "nuxt": "^3.10.3",
+    "swiper": "^11.1.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.8",
-    "@nuxt/typescript-build": "^2.1.0",
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "postcss": "^8.4.17"
-  }
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "version": "1.0.0",
+  "main": "nuxt.config.js",
+  "author": "",
+  "license": "ISC"
 }

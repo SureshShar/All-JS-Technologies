@@ -1,11 +1,15 @@
 <template>
-  <Tutorial/>
+  <HomePageOurValues />
+  <HomePageAboutUs />
+  <HomePageOurServices />
+
+  <HomePageTalentSolution />
+  <HomePageWorkforceSolutions />
+  <HomePageIndustrySolutions />
+  <HomePageTechnologySolutions />
+
+  <HomePageTalentRecruitmentOverview />
+  <HomePageOurRatingOnSocialMedia />
+  <HomePageCareers />
+  <HomePageCertificates />
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
-</script>

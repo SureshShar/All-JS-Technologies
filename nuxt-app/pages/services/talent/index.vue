@@ -1,0 +1,4 @@
+<template>
+  <ServicesTalentSolutionsTalentManagement />
+  <OurClients />
+</template>
